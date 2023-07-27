@@ -1,13 +1,13 @@
 # Coderverse - Futuristic Single Landing Page (Next.js Project)
 
-https://github.com/shubhjhawar/coderverse/assets/67875612/6d32abac-5fee-4a82-bcde-817d336b60ce
-
-
 Welcome to Coderverse! This is a Next.js single landing page project that showcases a slick and futuristic design inspired by the metaverse. The page utilizes motion effects from the `framer-motion` library to create an engaging and dynamic user experience. The elements in the page move gracefully as the user scrolls, adding a touch of interactivity and elegance.
 
 # Live Demo
 Check out the live demo of Coderverse at https://coderverse.vercel.app/
 Feel free to explore the dynamic motion effects and futuristic design on different devices!
+
+https://github.com/shubhjhawar/coderverse/assets/67875612/6d32abac-5fee-4a82-bcde-817d336b60ce
+
 
 ## Table of Contents
 
