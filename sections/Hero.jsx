@@ -15,7 +15,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Metaverse
+          Coderverse
         </motion.h1>
 
         <motion.div
