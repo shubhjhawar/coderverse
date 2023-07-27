@@ -3,10 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['next', 'next/core-web-vitals', 'plugin:react/recommended', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -14,28 +11,16 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   rules: {
-    'react/no-unescaped-entities': 0,
-    'eslintreact/no-danger': 0,
-    'react/jsx-max-props-per-line': 0,
-    'react/jsx-first-prop-new-line': 0,
-    'no-console': 0,
-    'jsx-a11y/label-has-associated-control': 0,
-    'no-nested-ternary': 0,
-    'consistent-return': 0,
-    'no-alert': 0,
-    'react/jsx-no-constructed-context-values': 0,
-    'import/extensions': 0,
-    'react/prop-types': 0,
-    'linebreak-style': 0,
-    'react/state-in-constructor': 0,
-    'import/prefer-default-export': 0,
-    'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/no-unescaped-entities': 'off',
+    'react/no-array-index-key': 'off',
+    'react/state-in-constructor': 'off',
+    'react/prop-types': 'off',
     'react/function-component-definition': [
       2,
       {
@@ -43,17 +28,8 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
-    'max-len': [
-      2,
-      1050,
-    ],
-    'no-multiple-empty-lines': [
-      'error',
-      {
-        max: 1,
-        maxEOF: 1,
-      },
-    ],
+    'import/extensions': 'off',
+    'import/prefer-default-export': 'off',
     'no-underscore-dangle': [
       'error',
       {
@@ -69,14 +45,27 @@ module.exports = {
         ],
       },
     ],
-    'object-curly-newline': 0,
-    'react/jsx-filename-extension': 0,
-    'react/jsx-one-expression-per-line': 0,
-    'jsx-a11y/click-events-have-key-events': 0,
-    'jsx-a11y/alt-text': 0,
-    'jsx-a11y/no-autofocus': 0,
-    'jsx-a11y/no-static-element-interactions': 0,
-    'react/no-array-index-key': 0,
+    'object-curly-newline': 'off',
+    'linebreak-style': 'off',
+    'max-len': [
+      2,
+      1050,
+    ],
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxEOF: 1,
+      },
+    ],
+    'no-alert': 'off',
+    'no-console': 'off',
+    'no-nested-ternary': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/alt-text': 'off',
+    'jsx-a11y/no-autofocus': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
